@@ -1,0 +1,32 @@
+
+
+
+
+body {
+    color: #fff;
+    background: hsl(227, 27%, 80%);
+    font: 300 1em 'sans-serif';
+    justify-content: center;
+    align-content: center;
+    align-items:center;
+    min-height: 100vh;
+    display:flex;
+}
+    
+
+    .square_btn{
+        position: relative;
+        justify-content: center;
+        align-content: center;
+        align-items:center;
+        display:flex;
+        height: 45px;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 37px;
+        color: #ec79e2;
+        text-shadow: 0px 4px 2px rgba(0, 0, 0, 0.32), 0px 1px 0px #881365, 0px 2px 0px #4f6aa7, 0px 3px 0px #5470ad;
+    }
+    .square_btn:active {
+        top: 4px;
+        box-shadow: none;
